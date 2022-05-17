@@ -3,11 +3,11 @@
 Тестовое окружение для проверки подхода, описанного в посте: https://cheshire.ifiction.ru/2022/04/iskry-polveka-parsera
 
 ## Особенности
-Добавлены свойства для объектов: Размер, Вес, Расстояние, Звук, Запах.
+Добавлены свойства для объектов: Размер, Вес, Расстояние, Звук, Запах (properties.lua)
 
-Добавлены обработчики для глаголов, учитывающие эти свойства согласно файла мэппинга (так же см. https://disk.yandex.ru/edit/d/yJ18vlu9cEJrEi7Nj4LiviPegnqahzm72s0qoIz-cKg6ZlliVVBMS05iZw?source=docs)
+Добавлены обработчики для глаголов (functions.lua), учитывающие эти свойства согласно файла мэппинга (verb_mapping.lua, так же см. https://disk.yandex.ru/edit/d/yJ18vlu9cEJrEi7Nj4LiviPegnqahzm72s0qoIz-cKg6ZlliVVBMS05iZw?source=docs)
 
-Добавлены реакции для глаголов, учитывающие эти свойства.
+Добавлены реакции для глаголов, учитывающие эти свойства (msgs.lua)
 
 ### Размер
 - TINY          = 0.01 m
